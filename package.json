@@ -1,29 +1,30 @@
 {
-  "name": "js-marketing-notification",
-  "version": "1.3.1",
-  "description": "A module for displaying tasteful marketing content to users upon first visit to page.",
-  "main": "js-marketing-notification.ts",
+  "name": "js-template-sample",
+  "version": "1.0.0",
+  "description": "template that can be used to create new js modules",
+  "main": "js-template-sample.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GTMSportswear/js-marketing-notification.git"
+    "url": "git+https://github.com/GTMSportswear/js-template-sample.git"
   },
   "keywords": [
     "gtmsportswear",
     "gtm",
     "javascript",
-    "notification"
+    "template"
   ],
-  "author": "Chris Young, Sam Schneider, Nick George",
+  "author": "Daniel Longfellow",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GTMSportswear/js-marketing-notification/issues"
+    "url": "https://github.com/GTMSportswear/js-template-sample/issues"
   },
-  "homepage": "https://github.com/GTMSportswear/js-marketing-notification#readme",
+  "homepage": "https://github.com/GTMSportswear/js-template-sample#readme",
   "files": [
-    "src/js-marketing-notification.ts",
+    "src/js-template-sample.ts",
+    "src/js-template-sample.test.ts",
     "src/**/github/**"
   ],
   "directories": {
