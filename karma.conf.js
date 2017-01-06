@@ -2,6 +2,7 @@ module.exports = function (config) {
   config.set({
     frameworks: ['systemjs', 'qunit'],
     files: [
+      'dist/*.js',
       'dist/*.test.js',
       { pattern: 'dist/**/*!(.test).js', included: false },
       { pattern: 'dist/**/*.html', included: false, nocache: true }

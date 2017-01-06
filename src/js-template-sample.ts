@@ -1,8 +1,18 @@
-export class JsTemplateSample {
-    public output(){
-        const container = document.createElement('div');
-        this.parentContainer.appendChild(container);
-    }
+export interface TemplateSample{
 
-    constructor(private parentContainer: Element){ }
+}
+
+export class JsTemplateSample {
+  private templateContainer: Element; 
+
+  public output(): void {
+    this.templateContainer = document.createElement('div');
+    this.parentContainer.appendChild(this.templateContainer);
+  }
+
+  public remove(): void {
+    this.parentContainer.removeChild(this.templateContainer);
+  }
+
+  constructor(private parentContainer: Element){ }
 }
