@@ -23,4 +23,3 @@ QUnit.test('should remove element from parentContainer when remove method is cal
   templateSample.remove();
   assert.equal(parentContainer.innerHTML, '');
 }); 
-  
